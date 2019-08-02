@@ -1,0 +1,8 @@
+@settings {
+    quality: fast
+    template: sna;
+    theme: dark;
+    showcase: [ "betweenness" > "0.01" ];
+    element-scale: scale("betweenness", 0.5, 3);
+    element-color: scale("betweenness", neon2);
+}
