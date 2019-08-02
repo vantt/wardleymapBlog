@@ -1,10 +1,9 @@
 
-# farnamstreetPageRank 
-FarnamStreet is the first website that introduce to me the concept of **multidiscipline thinking** and **mental models** learning.   
-  
+# Wardley Map Blog Graph     
+This blog hosts original articles about the Wardley Mapping method.   A strategy mapping and thinking tool.  
 To maximize the value of this blog, I need to figure out the highest valueable articles to read first. And more, I need to analyse the relationship between concepts and pages so that I can explore the world of super-thinking easier.  
     
-This tool will crawl the [fs.blog](fs.blog) website and build a graph between all pages, so that you could use any graphy-analysis tool of your choice to find most valuable knowledge.  
+This tool will crawl the [blog.gardeviance.org](blog.gardeviance.org) website and build a graph between all pages, so that you could use any graphy-analysis tool of your choice to find most valuable knowledge.  
     
 # How to run the crawler    
  ## First install Scrapy 
@@ -13,8 +12,8 @@ This tool will crawl the [fs.blog](fs.blog) website and build a graph between al
     
 ## Install crawler requirements  
 
-    $ git clone https://github.com/vantt/farnamstreetPageRank  
-    $ cd farnamstreetPageRank/crawler 
+    $ git clone https://github.com/vantt/wardleymapBlog  
+    $ cd wardleymapBlog/crawler 
     
     $ python3 -m venv env  
     $ source env/bin/activate  
